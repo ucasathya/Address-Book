@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <title>Add Contact</title>
+ </head>
+ <body>
+
+ <h2 style="background-color: lavender;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:  xx-large;
+    font-family: auto;"> Address Book </h2>
+
+  <div align="center" style="border: groove;
+    padding: 18px; background-color: bisque;">
+  <h1>Add Contact</h1>
+ <form action = "/savedetails" name="addform" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+ <table>
+ <tr><td style="font-size: larger;
+    font-weight: bolder;">Name</td><td><input type="text" name="name" style="border: groove;
+    background-color: lavender;"></td></tr>
+ <tr><td style="font-size: larger;
+    font-weight: bolder;">Email</td><td><input type="email" name="email" style="border: groove;
+    background-color: lavender;"></td></tr>
+ <tr><td style="font-size: larger;
+    font-weight: bolder;">Address</td><td><textarea name="address" rows="4" cols="50" maxlength="250" style="border: groove;
+    background-color: lavender;"></textarea></td></tr>
+ <tr><td style="font-size: larger;
+    font-weight: bolder;">Mobile</td><td><input type="text" name="mobile" style="border: groove;
+    background-color: lavender;"></td></tr>
+ <tr><td style="font-size: larger;
+    font-weight: bolder;">Pincode</td><td><input type="text" name="pincode" style="border: groove;
+    background-color: lavender;"></td></tr>
+ <tr><td style="font-size: larger;
+    font-weight: bolder;">City</td><td><input type="text" name="city" style="border: groove;
+    background-color: lavender;"></td></tr>
+ <tr><td style="font-size: larger;
+    font-weight: bolder;">Profile</td><td><input type="file" name="img" accept="image/*"></td></tr>
+ <tr><td><input type="submit" value="Submit" align="right" style="border-block: revert;
+    background-color: greenyellow;
+    padding: 5px 10px;
+    font-size: 18px;"></td></tr>
+ </table>
+ </form>
+ </div>
+ </body>
+ </html>  
